@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/html5-css3-js.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title> FrontEnd Course </title>
+</head>
+<body>
+    <header class="the_header">
+        <nav class="nav_container">
+            <div class="nav_full">
+                <h2 class="nav_title" id="title_nav"> FrontEnd Course </h2>
+            <divclass="nav_items" >
+                <a class="nav_item" href="#"> Home </a>
+                <a class="nav_item" href="#about_section"> About </a>
+                <a class="nav_item" href="#promo_section"> Promo </a>
+                <a class="nav_item" href="#plans_section"> Plans </a>
+                <a class="nav_item" href="#contact_section"> Contact </a>
+            </div>
+            </div>
+        </nav>
+        <section>
+            <h1> Learn how to be a FrontEnd developer </h1>
+            <p> Once you finish, you will be able to access the best job offers </p>
+            <button type="button"> Start now </button>
+        </section>
+    </header>
+    <!-- ------------------------------------------->
+    <main>
+        <section id="about_section" class="about_section">
+            <h2 id="wq_about"> What will you learn on this course? </h2>
+            <p id="info_about"> Everything you need to make your website intuitive and <b>creative</b></p>
+            <div class="articles_div">
+                <article class="knowledge_article">
+                    <img src="img/html.png" alt="html logo" class="about_icon">
+                    <h3> HTML </h3>
+                    <p> The standard markup language for documents designed to be displayed in a web browser. </p>
+                </article>
+                <article class="knowledge_article">
+                    <img src="img/css.png" alt="css logo" class="about_icon">
+                    <h3> CSS </h3>
+                    <p> The style sheet language used for describing the presentation of a document. </p>
+                </article>
+                <article class="knowledge_article">
+                    <img src="img/js.png" alt="javascript logo" class="about_icon">
+                    <h3> JavaScript </h3>
+                    <p> The programming language to create dynamic and interactive web content like applications. </p>
+                </article>
+            </div>
+        </section>
+        <!-- ------------------------------------------->
+        <section id="promo_section" class="promo_section">
+            <div class="text_promo_div">
+                <h2> Just today! </h2>
+                <p> Get the full course for only $40 and be able to be the best developer</p>
+                <p> Just click the next button and get the promo </p>
+            </div>
+            <button type="button"> Click </button>
+            <figure class="promo_picture">
+                <img src="img/HCJ.png" class="promo__img">
+            </figure>
+        </section>
+        <!-- ------------------------------------------->
+        <section id="plans_section" class="plans_section">
+            <h2 class="plans_title"> Get the perfect plan</h2>
+            <div class="plan_table">
+                <h3>Free</h3>
+                <p> HTML</p>
+                <button type="button"> Start now </button>
+            </div>
+            <div class="plan_table">
+                <h3>$30</h3>
+                <p> HTML, CSS</p>
+                <button type="button"> Start now </button>
+            </div>
+            <div class="plan_table">
+                <h3>$50</h3>
+                <p> HTML, CSS, JavaScript </p>
+                <button type="button"> Start now </button>
+            </div>
+        </section>
+        <!-- ------------------------------------------->
+        <section id="plans_section" class="plans_section">
+            <h3> Send me a messaje</h3>
+            <label for="input_name">Write your name:</label>
+            <input id="input_name" type="text" placeholder="Juanita"> <br>
+            <label for="input_email">Write your email:</label>
+            <input id="input_email" type="email" placeholder="Juanita@email.com"><br>
+            <label for="txArea_messaje">Write you question</label> <br>
+            <textarea name="txArea_messaje" id="txArea_messaje" cols="10" rows="5" placeholder="I have a question"></textarea><br>
+            <label for="select_question">Select your type of question</label>
+            <select name="select_question" id="select_question">
+                <option value="duda1">Precio</option>
+                <option value="duda1">content</option>
+                <option value="duda1">Dates</option>
+                <option value="duda1">Others</option>
+            </select>
+        </section>
+    </main>
+    <!-- ------------------------------------------->
+    <footer>
+        <h2> Contact me </h2>
+        <p> If you have any questions, contact me on any of my networks </p>
+        <div id="contact_section" class="contact">
+            <a href="#" class="contact_link">
+               <img src="assets/bxl-facebook.svg" class="footer__icon">
+            </a>
+            <a href="#" class="contact_link">
+               <img src="assets/bxl-instagram.svg" class="footer__icon">
+            </a>
+            <a href="https://twitter.com/colorado_caro" target="_blank" class="contac_link">
+               <img src="assets/bxl-twitter.svg" class="footer__icon">
+            </a>
+            <a href="#" class="contact_link">
+               <img src="assets/bxl-youtube.svg" class="footer__icon">
+            </a>
+        </div>
+        <p class="footer__copyright">
+            Sitio web creado por &copy; Caro Colorado ❤
+        </p>
+    </footer>
+</body>
+</html>

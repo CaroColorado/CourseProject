@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+.about_icon{
+    width: 60px;
+}
+.promo__img{
+    width: 500px;
+}
+.knowledge_article{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+.articles_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#wq_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#info_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p:first-letter{
+    color: black;
+}
+
+#title_nav{
+    display: inline;
+    color: beige;
+}
+body{
+    /*background-image: url(img/paris.jpg);
+    background-size: cover;*/
+    background-image: linear-gradient(rgb(128, 161, 212), rgb(192, 185, 221), rgb(222, 217, 226), rgb(247, 244, 234));
+
+}
+
+.nav_full{
+    font-size: 20px;
+    padding: 40px;
+}
