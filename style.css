@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+
+
+
+
 .about_icon{
     width: 60px;
 }
@@ -17,8 +21,8 @@
 }
 .articles_div{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 #wq_about{
@@ -55,4 +59,17 @@ body{
 .icono-social{
     width: 25px;
     height: 25px;
+}
+
+nav {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(79, 182, 177);
+    color: #fff;
+}
+
+a{
+    color: white;
 }
